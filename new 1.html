@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html lang="en-US">
+	<head> 
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+var x = prompt("give me a number");
+var y = prompt("give me a second number");
+var z = prompt("give me a third number");
+if (x > y > z){ 
+	document.write(x + ", " + y + ", " + z);
+}
+else if (y>x>z){
+	document.write(y + ", " + x + ", " + z);
+}
+else if (x>z>y){
+	document.write(x + ", " + z + ", " + y);
+}
+else if (y>z>x){
+	document.write(y + ", " + z + ", " + x);
+}
+else if (z>x>y){
+	document.write(z + ", " + x + ", " + y);
+}
+else{
+	document.write(z + ", " + y + ", " + x);
+}
+    </script>
+	</body>
+</html>
